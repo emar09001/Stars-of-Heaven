@@ -32,3 +32,31 @@ div.pic-col{
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
 }
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* 1850px; */
+}
+table{
+    width: 100%;
+}
+th,td{
+    width: 50%;
+}
+.par{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-
+}
+.title-låtar{
+    text-align: center;
+    background-color: bisque;
+    font-style: italic;
+
+}
+.div1{
+    text-align: center;
+    border: 1px solid black;
+    
+
+}
