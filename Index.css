@@ -46,7 +46,6 @@ th,td{
 .par{
     display:grid;
     grid-template-columns: 1fr;
-    grid-
 }
 .title-låtar{
     text-align: center;
@@ -59,4 +58,31 @@ th,td{
     border: 1px solid black;
     
 
+}
+.ban-tit{
+    background-color: bisque;
+    text-align: center;
+    font-style: italic;
+    grid-column:span 1/3
+}
+.medlemar{
+    width: 800px;
+}
+.grupp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+tr:nth-child(odd){
+    background-color: rgb(170, 169, 169)
+}
+li:nth-child(even){
+    background-color:bisque
+}
+.grupp > img{
+    width: 100%;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
